@@ -72,11 +72,11 @@ public class BlockEditorWindow : EditorWindow
     private void OnGUI_ControlWindow()
     {
         GUILayout.BeginVertical();
-        GUILayout.BeginScrollView
+        scrollPosition = GUILayout.BeginScrollView
             (scrollPosition,
             GUILayout.MinWidth(0),
             GUILayout.MaxWidth(400),
-            GUILayout.MinHeight(500),
+            GUILayout.MinHeight(0),
             GUILayout.MaxHeight(1000));
 
         GUILayout.BeginHorizontal();
