@@ -1,0 +1,28 @@
+{
+    "name": "com.kohyeonseo.maptool",
+    "version": "0.1.0",
+    "displayName": "Map Tool",
+    "description": "You can easily customize map.",
+    "unity": "2021.3",
+    "documentationUrl": "https://github.com/KoHyeonSeo/MapTool/blob/main/README.md",
+    "changelogUrl": "https://github.com/KoHyeonSeo/MapTool/blob/main/README.md",
+    "licensesUrl": "https://github.com/KoHyeonSeo/MapTool/blob/main/License",
+    "keywords": [
+      "Map Tool",
+      "Custom Window",
+      "Unity Editor"
+    ],
+    "author": {
+      "name": "KoHyeonSeo",
+      "email": "rhgustj01@naver.com",
+      "url": "https://github.com/KoHyeonSeo"
+    },
+    "hideInEditor": false,
+    "samples": [
+      {
+        "displayName": "MapTool Sample",
+        "description": "You can see a MapTool sample code and usages.",
+        "path": "Samples~/SamplesMapTool"
+      }
+    ]
+  }
