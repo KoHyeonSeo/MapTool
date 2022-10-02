@@ -90,9 +90,6 @@ public class BlockEdit : Editor
                 //Select State
                 selectState = SelectState.Select;
 
-                //레이어를 SelectObject로 바꾸자
-                /// Let's change the layer to SelectObject
-                //hit.transform.gameObject.layer = LayerMask.NameToLayer("SelectObject");
                 //selectedObject에 클릭한 물체를 넣어두자
                 ///Put the object you clicked on in the selectedObject
                 selectedObject = hit.transform.gameObject;
