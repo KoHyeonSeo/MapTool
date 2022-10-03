@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.kohyeonseo.maptool": {
+      "version": "file:com.kohyeonseo.maptool",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.unity.collab-proxy": {
       "version": "1.17.1",
       "depth": 0,

@@ -1,0 +1,16 @@
+{
+    "name": "Kohyeonseo.MapTool.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:d0d8172c1ff025a43abffab18c82803b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

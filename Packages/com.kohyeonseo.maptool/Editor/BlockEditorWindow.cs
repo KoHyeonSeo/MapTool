@@ -27,18 +27,18 @@ public class BlockEditorWindow : EditorWindow
 
         map = GameObject.Find("Map").GetComponent<MapTool>();
 
-        map.arrangeMentTexture = Resources.Load<Texture>( "Image/Place");
-        map.selectTexture = Resources.Load<Texture>("Image/Select");
-        map.changeTexture = Resources.Load<Texture>("Image/ChangeObject");
-        map.moveTexture = Resources.Load<Texture>("Image/Move");
-        map.deleteTexture = Resources.Load<Texture>("Image/Delete");
-        map.dragTexture = Resources.Load<Texture>("Image/Drag");
-        map.swapTexture = Resources.Load<Texture>("Image/Swap");
+        map.arrangeMentTexture = Resources.Load<Texture>("MapTool/Image/Place");
+        map.selectTexture = Resources.Load<Texture>("MapTool/Image/Select");
+        map.changeTexture = Resources.Load<Texture>("MapTool/Image/ChangeObject");
+        map.moveTexture = Resources.Load<Texture>("MapTool/Image/Move");
+        map.deleteTexture = Resources.Load<Texture>("MapTool/Image/Delete");
+        map.dragTexture = Resources.Load<Texture>("MapTool/Image/Drag");
+        map.swapTexture = Resources.Load<Texture>("MapTool/Image/Swap");
 
 
-        Object resource_table = Resources.Load<GameObject>("Editor/Box1");
-        Object resource_trash = Resources.Load<GameObject>("Editor/Box2");
-        Object resource_FireExtinguisher = Resources.Load<GameObject>("Editor/Box3");
+        Object resource_table = Resources.Load<GameObject>("MapTool/Box1");
+        Object resource_trash = Resources.Load<GameObject>("MapTool/Box2");
+        Object resource_FireExtinguisher = Resources.Load<GameObject>("MapTool/Box3");
 
         ObjectList.Add(resource_table);
         ObjectList.Add(resource_trash);

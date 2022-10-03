@@ -186,7 +186,7 @@ public class BlockEdit : Editor
             {
                 if (hit.transform.gameObject.layer == LayerMask.NameToLayer("Tile"))
                 {
-                    Object resource = Resources.Load<GameObject>("Editor/" + selectedObject.name);
+                    Object resource = Resources.Load<GameObject>("MapTool/" + selectedObject.name);
 
                     GameObject instantiate = (GameObject)PrefabUtility.InstantiatePrefab(resource);
                     EditUtility.ObjectSetting(map.gameObject,
@@ -249,7 +249,7 @@ public class BlockEdit : Editor
         DestroyImmediate(selectedObject);
         //선택한 오브젝트의 인덱스 변경하여 생성
         ///Change Index and Load Object
-        Object resource = Resources.Load<GameObject>("Editor/" + BlockEditorWindow.ObjectList[index].name);
+        Object resource = Resources.Load<GameObject>("MapTool/" + BlockEditorWindow.ObjectList[index].name);
         //프리팹 생성
         ///Create Prefab
         GameObject instantiate = (GameObject)PrefabUtility.InstantiatePrefab(resource);
