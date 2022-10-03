@@ -5,6 +5,7 @@ using UnityEditor;
 using Codice.Client.BaseCommands;
 using Unity.VisualScripting;
 using UnityEngine.UIElements;
+using System.IO;
 
 public class BlockEditorWindow : EditorWindow
 {
@@ -25,6 +26,16 @@ public class BlockEditorWindow : EditorWindow
         window.maxSize = window.minSize = new Vector2(400, 500);
 
         map = GameObject.Find("Map").GetComponent<MapTool>();
+
+        map.arrangeMentTexture = Resources.Load<Texture>( "Image/Place");
+        map.selectTexture = Resources.Load<Texture>("Image/Select");
+        map.changeTexture = Resources.Load<Texture>("Image/ChangeObject");
+        map.moveTexture = Resources.Load<Texture>("Image/Move");
+        map.deleteTexture = Resources.Load<Texture>("Image/Delete");
+        map.dragTexture = Resources.Load<Texture>("Image/Drag");
+        map.swapTexture = Resources.Load<Texture>("Image/Swap");
+
+
         Object resource_table = Resources.Load<GameObject>("Editor/Box1");
         Object resource_trash = Resources.Load<GameObject>("Editor/Box2");
         Object resource_FireExtinguisher = Resources.Load<GameObject>("Editor/Box3");
